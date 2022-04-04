@@ -88,6 +88,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   const query = `*[_type == "collection"]{
     _id,
     title,
+    address,
     description,
     nftCollectionName,
     mainImage {
